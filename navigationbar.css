@@ -1,0 +1,36 @@
+.menu{ margin:0; width: 100%; position:sticky;}
+nav {width: 20%; height: 400px; background:#e2e0e0;}
+ul.horizontal{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: red;
+}
+ul.horizontal li {float: left;}
+ul.horizontal li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align:center ;
+}
+ul.horizontal li a:hover{ background-color: aqua;}
+ul.vertical{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+}
+ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    color: back;
+    padding: 15px;
+    text-align: left;
+}
+ul.vertical li a:hover{
+    background-color: #777;
+    color: white;
+}
